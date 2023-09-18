@@ -1,7 +1,20 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Version>1.0.0</Version>
+    <Authors>yakivyusin</Authors>
+    <Copyright>Copyright 2023</Copyright>
+    <Description>The logger extensions for table logging using the YetAnotherConsoleTables library.</Description>
+    <PackageProjectUrl>https://github.com/yakivyusin/YetAnotherConsoleTables.Logger</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>console;table;output;consoletable;text-table</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="2.1.0" />
+    <PackageReference Include="YetAnotherConsoleTables" Version="3.0.0" />
+  </ItemGroup>
 
 </Project>
