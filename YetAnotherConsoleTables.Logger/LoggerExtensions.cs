@@ -1,8 +1,4 @@
-﻿using Microsoft.Extensions.Logging;
-using System.Collections.Generic;
-using System.IO;
-
-namespace YetAnotherConsoleTables.Logger;
+﻿namespace YetAnotherConsoleTables.Logger;
 
 public static class LoggerExtensions
 {

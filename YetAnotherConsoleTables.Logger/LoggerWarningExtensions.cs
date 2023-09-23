@@ -1,7 +1,4 @@
-﻿using Microsoft.Extensions.Logging;
-using System.Collections.Generic;
-
-namespace YetAnotherConsoleTables.Logger;
+﻿namespace YetAnotherConsoleTables.Logger;
 
 public static class LoggerWarningExtensions
 {
