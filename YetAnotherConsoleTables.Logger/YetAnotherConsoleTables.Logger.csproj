@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <LangVersion>latest</LangVersion>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Version>1.0.0</Version>
+    <Version>1.1.0</Version>
     <Authors>yakivyusin</Authors>
     <Copyright>Copyright 2023</Copyright>
     <Description>The logger extensions for table logging using the YetAnotherConsoleTables library.</Description>
@@ -12,6 +12,7 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>console;table;output;consoletable;text-table;logging</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReleaseNotes>Added overloads with ConsoleTable instead of IEnumerable.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
